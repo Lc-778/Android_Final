@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7900BCD4">
+
+  <ListView
+      android:id="@+id/listview"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_below="@+id/record_name"
+      android:layout_marginTop="-2dp"
+      android:cacheColorHint="#00000000"
+      android:divider="#E4E4E4"
+      android:dividerHeight="1dp"
+      android:fadingEdge="none"
+      android:listSelector="#00000000"
+      android:scrollbars="none">
+
+  </ListView>
+
+  <TextView
+      android:id="@+id/record_name"
+      android:layout_width="match_parent"
+      android:layout_height="45dp"
+      android:background="#673AB7"
+      android:gravity="center"
+      android:text="个人喜爱"
+      android:textColor="@android:color/white"
+      android:textSize="20sp"
+      android:textStyle="bold" />
+
+  <ImageView
+      android:id="@+id/record_back"
+      android:layout_width="45dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginStart="11dp"
+      android:layout_marginEnd="354dp"
+      android:layout_marginBottom="579dp"
+      android:paddingLeft="11dp"
+      android:src="@drawable/arrow_left" />
+
+  <ImageView
+        android:id="@+id/record_add"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/wenjiantianjia" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/record_add"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="21dp"
+        android:gravity="center"
+        android:text="长按内容可以删除" />
+</RelativeLayout>

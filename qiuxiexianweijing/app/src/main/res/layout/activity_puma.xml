@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThirdLevel.PumaActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/black"
+        android:text="欢迎来到PUMA馆"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="15dp"
+        />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/puma1"
+            android:layout_marginRight="20dp"
+            />
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp">
+                <TextView
+                    android:layout_width="72dp"
+                    android:layout_height="33dp"
+                    android:text="鲍尔1代"
+                    android:layout_marginRight="20dp"
+                    />
+
+                <TextView
+                        android:layout_width="72dp"
+                        android:layout_height="33dp"
+                        android:text="商品单价"
+                        android:layout_marginRight="20dp"
+                        />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:text="999¥" />
+           </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+                <TextView
+                    android:layout_width="72dp"
+                    android:layout_height="33dp"
+                    android:layout_marginRight="20dp"
+                    android:text="商品数量"
+                    />
+                <EditText
+                    android:id="@+id/price_count"
+                    android:layout_width="150dp"
+                    android:layout_height="33dp"
+                    android:textSize="9dp"
+                    android:hint="请输入数量不买为0"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_width="72dp"
+                    android:layout_height="33dp"
+                    android:text="该商品总价"
+                    />
+                <TextView
+                    android:id="@+id/price_all"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/puma2jpg"
+            android:layout_marginRight="20dp"
+            />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+                <TextView
+                    android:layout_width="72dp"
+                    android:layout_height="33dp"
+                    android:text="Puma高帮"
+                    android:layout_marginRight="20dp"
+                    />
+                <TextView
+                    android:layout_width="72dp"
+                    android:layout_height="33dp"
+                    android:text="商品单价"
+                    android:layout_marginRight="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:text="488¥" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+                <TextView
+                    android:layout_width="72dp"
+                    android:layout_height="33dp"
+                    android:layout_marginRight="20dp"
+                    android:text="商品数量"
+                    />
+                <EditText
+                    android:id="@+id/price_count1"
+                    android:layout_width="150dp"
+                    android:layout_height="33dp"
+                    android:textSize="9dp"
+                    android:hint="请输入数量不买为0"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_width="72dp"
+                    android:layout_height="33dp"
+                    android:text="该商品总价"
+                    />
+                <TextView
+                    android:id="@+id/price_all1"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/puma3"
+            android:layout_marginRight="20dp"
+            />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+                <TextView
+                    android:layout_width="72dp"
+                    android:layout_height="33dp"
+                    android:text="实战跑鞋"
+                    android:layout_marginRight="20dp"
+                    />
+                <TextView
+                    android:layout_width="72dp"
+                    android:layout_height="33dp"
+                    android:text="商品单价"
+                    android:layout_marginRight="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:text="699¥" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+                <TextView
+                    android:layout_width="72dp"
+                    android:layout_height="33dp"
+                    android:layout_marginRight="20dp"
+                    android:text="商品数量"
+                    />
+                <EditText
+                    android:id="@+id/price_count2"
+                    android:layout_width="150dp"
+                    android:layout_height="33dp"
+                    android:textSize="9dp"
+                    android:hint="请输入数量不买为0"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_width="72dp"
+                    android:layout_height="33dp"
+                    android:text="该商品总价"
+                    />
+                <TextView
+                    android:id="@+id/price_all2"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/puma4"
+            android:layout_marginRight="20dp"
+            />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+                <TextView
+                    android:layout_width="72dp"
+                    android:layout_height="33dp"
+                    android:text="Puma低帮"
+                    android:layout_marginRight="20dp"
+                    />
+                <TextView
+                    android:layout_width="72dp"
+                    android:layout_height="33dp"
+                    android:text="商品单价"
+                    android:layout_marginRight="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:text="309¥" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+                <TextView
+                    android:layout_width="72dp"
+                    android:layout_height="33dp"
+                    android:layout_marginRight="20dp"
+                    android:text="商品数量"
+                    />
+                <EditText
+                    android:id="@+id/price_count3"
+                    android:layout_width="150dp"
+                    android:layout_height="33dp"
+                    android:textSize="9dp"
+                    android:hint="请输入数量不买为0"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_width="72dp"
+                    android:layout_height="33dp"
+                    android:text="该商品总价"
+                    />
+                <TextView
+                    android:id="@+id/price_all3"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/puma5"
+            android:layout_marginRight="20dp"
+            />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+                <TextView
+                    android:layout_width="72dp"
+                    android:layout_height="33dp"
+                    android:text="Puma气动"
+                    android:layout_marginRight="20dp"
+                    />
+                <TextView
+                    android:layout_width="72dp"
+                    android:layout_height="33dp"
+                    android:text="商品单价"
+                    android:layout_marginRight="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:text="840¥" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+                <TextView
+                    android:layout_width="72dp"
+                    android:layout_height="33dp"
+                    android:layout_marginRight="20dp"
+                    android:text="商品数量"
+                    />
+                <EditText
+                    android:id="@+id/price_count4"
+                    android:layout_width="150dp"
+                    android:layout_height="33dp"
+                    android:textSize="9dp"
+                    android:hint="请输入数量不买为0"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_width="72dp"
+                    android:layout_height="33dp"
+                    android:text="该商品总价"
+                    />
+                <TextView
+                    android:id="@+id/price_all4"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_marginLeft="120dp"
+        android:gravity="center"
+        android:id="@+id/Btn_buy"
+        android:layout_width="150dp"
+        android:layout_height="44dp"
+        android:text="购买" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:paddingTop="8dp"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="所有商品总价为:" />
+        <TextView
+            android:id="@+id/text_Final"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+             />
+
+    </LinearLayout>
+
+</LinearLayout>
